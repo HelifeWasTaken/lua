@@ -1,5 +1,7 @@
 # The Lua Programming Language
 
+## This is simply a fork for repository centralisation credits to marovira
+
 > The Lua Programming Language with Modern CMake
 
 [![.github/workflows/clang.yml](https://github.com/marovira/lua/actions/workflows/clang.yml/badge.svg)](https://github.com/marovira/lua/actions/workflows/clang.yml)
@@ -55,7 +57,7 @@ include(FetchContent)
 
 FetchContent_Declare(
     lua
-    GIT_REPOSITORY "https://github.com/marovira/lua"
+    GIT_REPOSITORY "https://github.com/HelifeWasTaken/lua"
     GIT_TAG "<latest-commit-hash>"
 )
 
