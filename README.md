@@ -11,7 +11,7 @@
 
 ## About
 
-This is a bundle of the Lua Programming Language v5.4.3 that provides a modern
+This is a bundle of the Lua Programming Language v5.4.4 that provides a modern
 CMake script for easy inclusion into projects and installation. For usage
 instructions, see the next section. 
 
@@ -22,17 +22,6 @@ instructions, see the next section.
 
 There are a couple of ways to integrate this bundle into your project. All of
 them will use the same linking code, so let's discuss how to include it first.
-You have 3 options. For the first two options, it is recommended that you add
-the following to your CMakelists (especially if you only wish to link to the
-library itself):
-
-```cmake
-set(LUA_BUILD_COMPILER OFF CACHE INTERNAL "")
-set(LUA_BUILD_INTERPRETER OFF CACHE INTERNAL "")
-```
-
-Adding these two lines will disable the creation of the compiler and interpreter
-targets for Lua. 
 
 ### As a Subdirectory
 
@@ -109,4 +98,4 @@ Lua is published under the MIT license and can be viewed
 [here](https://github.com/marovira/lua/blob/master/LUA_LICENSE). For more
 information, please see their official website [here](https://www.lua.org/).
 
-This bundle is published under the BSD-3 license can can be viewed [here](https://github.com/marovira/lua/blob/master/LICENSE)
+This bundle is published under the BSD-3 license can be viewed [here](https://github.com/marovira/lua/blob/master/LICENSE)
